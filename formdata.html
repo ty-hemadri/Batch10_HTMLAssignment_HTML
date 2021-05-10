@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormData</title>
+</head>
+
+<body>
+    <form action="Submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label for="date">DOB:</label>
+        <input type="date" name="date"><br><br>
+
+        <label for="phone">Phone no:</label>
+        <input type="tel" name="phone"><br><br>
+
+        <label for="mail">Gmail :</label>
+        <input type="email" name="gmail"><br><br>
+
+        <label>Enter your id:</label>
+        <input type="number" name="num" min="50" max="80"><br><br>
+
+        <label>Enter your website URL: </label>
+        <input type="url" name="website" placeholder="http://example.com"><br><br>
+
+        <label for="color">Select your fav color:</label>
+        <input type="color" name="color"><br><br>
+
+        <label>Select the range between 1 to 100:</label>
+        <input type="range" min="1" max="100"><br><br>
+
+        <label>Select Gender</label><br><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+
+        <label>Select week of year:</label><br><br>
+        <input type="week" name="bestweek"><br><br>
+
+        <label>Search :</label>
+        <input type="search" name="searching">
+        <input type="submit" value="search"><br><br>
+
+        <label>Select one or more Household Appliances</label><br>
+        <input type="checkbox" id="Appliances1" name="Appliances1" value="Fan">
+        <label for="vehicle1"> Fan </label><br>
+        <input type="checkbox" id="Appliances2" name="Appliances2" value="Light">
+        <label for="vehicle2"> Light</label><br>
+        <input type="checkbox" id="Appliances3" name="Appliances3" value="Ac">
+        <label for="vehicle3"> Ac</label><br><br>
+
+        <label for="password">password:</label>
+        <input type="password" name="password"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
